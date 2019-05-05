@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>转换模式练习</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        div{
+            width: 310px;
+            height: 438px;
+            background-color: skyblue;
+            margin: 100px auto;
+            border: 1px solid #000;
+            perspective: 500px;
+        }
+        img{
+            transition: transform 1s;
+            transform-origin: bottom;
+        }
+       div:hover img{
+
+            transform: rotateX(80deg);
+
+
+        }
+    </style>
+</head>
+<body>
+
+    <div><img src="images/pk.png" alt=""></div>
+
+</body>
+</html>
